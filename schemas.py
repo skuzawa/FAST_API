@@ -24,9 +24,8 @@ class UserBody(BaseModel):
     password : str
 
 class UserInfo(BaseModel):
-    id: Optional[str] = None
-    email:str
+    id : Optional[str] = None
+    email : str
 
 class Csrf(BaseModel):
-    csrf_token:str
-    
+    csrf_token: str
